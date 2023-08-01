@@ -1,0 +1,23 @@
+{
+  "name": "vlinter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+	  "vlint": "src/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "viniciusvviterbo",
+  "license": "ISC",
+  "type": "module",
+  "engines": {
+    "node": "v16.19.0"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "espree": "^9.6.1"
+  }
+}
